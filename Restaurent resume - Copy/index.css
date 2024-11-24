@@ -1,0 +1,524 @@
+/************* #HOME-SECTION   **************/
+#nav-bar{
+    backdrop-filter:blur(10%);
+}
+#logo-text{
+    color:black;
+    padding-top:2px;
+    font-family: Sans-serif;
+    font-weight: bold;
+}
+#logo-icon{
+    height: 50px;
+    border-radius: 50%;
+    transition:0.8s ease-in-out;
+}
+#logo-icon:hover{
+   transform: translateX(15px);
+}
+.icon{
+    transition:0.8s ease-in-out;
+    margin-bottom: 5px;
+}
+.home-page-banner-bg-container{
+    height: 100vh;
+    width: 100%;
+    /**
+    background-image:url(https://img.freepik.com/free-photo/top-view-indian-bowl-with-pita_23-2148734668.jpg?t=st=1718348335~exp=1718351935~hmac=e9d2ef9b78513a0aff2369a07d24aa0cdda526f14ba624403fddeb926d0f9f73&w=740);
+    
+    background-image:url("https://www.w3schools.com/w3images/hamburger.jpg");
+
+
+    background-image: url(https://img.freepik.com/premium-photo/tasty-tofu-stir-fry-with-veggies-crispy-tofu-fresh-cilantro-perfect-vegan-meal-healthy_763042-1514.jpg?w=740);
+*/
+    
+    background-image: url(https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/06/Greek-Lemon-Chicken-main-1200x800.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: visible;
+    filter: brightness(80%);
+
+}
+#button-nav{
+    text-decoration: none;
+}
+.home-page-banner{
+    align-items: center;
+}
+.home-page-header{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform:capitalize;
+    transition: 0.3s ease-in-out;
+    animation-name: homepage;
+    animation-direction: homepage;
+} 
+.home-page-description{
+    color: #ffffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+#item-1{
+    color:#0d6efd;
+    font-family:Sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+#item-1:hover{
+    color:#000000;
+    transform: translateY(-3px);
+}
+#item-1:active{
+    color: violet;
+    text-decoration: underline;
+}
+#button-nav:hover{
+     transform: scale(1.04);
+}
+/********why choose us**********/
+
+
+.about{
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/25/07/55/restaurant-738788_1280.jpg);
+    background-attachment: fixed;
+}
+.heading{
+    font-family:sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: left;
+    text-transform: capitalize;
+    padding-bottom:3px;
+    padding-left: 3px;
+}
+.description{
+    font-family:sans-serif;
+    font-size: 18px;
+    font-weight: medium;
+    text-align: left;
+    text-transform: capitalize;
+    padding-bottom:5px;
+    padding-left: 3px;
+
+}
+.box-1{
+    height: 260px;
+    color: white;
+    width: auto;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    transition: ease-in-out 0.4s;
+}
+.box-1:hover{
+    color: none;
+    background-color: none;
+    cursor: pointer;
+    box-shadow: 0 0 8px #ffffff;
+}
+.chief-img{
+    max-height: 100px;
+    max-width:100% ;
+}
+h4{
+    font-weight: bolder;
+    font-family: Roboto;
+    padding-top: 10px;
+
+}
+/*********why choose us*********8/
+
+
+
+/********Explore Menu************/
+
+.main-head{
+   color: #0d6efd;
+   
+}
+.main-head-1{
+    font-size: 30px;
+}
+.box{
+    height: 320px;
+    width: auto;
+    background-color: transparent;
+    box-shadow: 0 0 8px #666666;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+.box:hover{
+   transform: scale(1.03);
+   z-index: -1;
+}
+.img-pill{
+    height: 250px;
+    border-radius:20px;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+.box-head{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+#menu-nav{
+    cursor: pointer;
+    text-decoration:none;
+    font-size:15px;
+    padding-left: 10px;
+}
+/************#explore-menu-end*****************/
+/*********************************************/
+.container-xl{
+    height: 540px;
+    width:auto;
+    border-radius: 0px;
+    background-color: #f5cd99;
+    box-shadow: 0 0 6px #666666;
+}
+.browine-img-1{
+    height: 540px;
+    width: 300px;
+}
+.browine-content-container{
+   text-align: center;
+}
+.browine-heading{
+    font-size: 45px;
+}
+.browine-header{
+    letter-spacing: 2px;
+}
+.browine-heading{
+    color: #000000;
+    font-weight: bolder;
+}
+.custom-button{
+    color: #000000;
+    background-color: transparent;
+    padding: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+}
+.custom-button:hover{
+    color: white;
+    background-color: #000000;
+}
+
+
+
+/**********************************************/
+/***********#book a table**************/
+#name{
+    height: 50px;
+    width: 100%;
+    padding-left: 5px;
+    border-width:0px;
+    border-bottom: 1px;
+    border-style: solid;
+    background-color: transparent;
+    outline: none;
+}
+.heading-1{
+    color:black;
+    font-family: Roboto;
+    font-size: bold;
+}
+.sub-head{
+    color: #000000;
+    font-family: Roboto;
+    font-size: bold;
+}
+.reservation-heading{
+    font-family: Roboto;
+    font-size: bold;
+    font-size: 45px;
+}
+.now{
+    height: 50px;
+    width: 100%;
+}
+.sub-nav a{
+    color: #ffffffff;
+    text-decoration: none;
+    transition: ease-in-out 0.10s;
+    border-bottom:solid 2px #ffffff transparent;
+}
+.sub-nav a:hover{
+    color: #ffffffff;
+    text-decoration: none;
+    border-bottom:solid 2px #ffffff;
+}
+.booking-section{
+    color: #000000;
+    background-image: url("https://www.thefoodaholic.co.uk/wp-content/uploads/2020/09/DSC_2020-1440x960.jpg");
+    filter: brightness(90%);
+}
+/********#book-a-table-ends***************/
+/*********about-us********************/
+.hot-heading{
+    text-align: left;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 45px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+}
+.hot-heading-2{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.hot-description{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+/********book-a-table-ends**********/
+/********book for events***********/
+.booking-event-container{
+    background-size: cover;
+}
+
+
+#img-event{
+    padding: 10px;
+    border-radius: 15px;
+}
+.event-container{
+    height: 160px;
+    width: 460px;
+    border-radius: 15px;
+    margin-left: 20px;
+    box-shadow: 0 0 8px #666666;
+}
+.event-head-1{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.event-description,.event-head-2{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.event-description-1{
+    font-size: 18px;
+}
+/*********book-for-events-end**************/
+
+
+/*******#follow-us-card********/
+.ul,li{
+    list-style: none;
+}
+#follow-head{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#bt-icon{
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0  5px #666666;
+    border-radius: 50%; 
+}
+#bt-icon:hover{
+    filter: grayscale(100%);
+}
+
+/**********#follow-us-card-end*********/
+/***********#footer-section*************/
+
+/***********#footer-section-end*************/
+
+#location-header{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: sans-serif;
+    filter: brightness(110%);
+
+}
+.time-header{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+#li-item{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#li-item-1{
+    color:#ffffff;
+    font-family: sans-serif;
+}
+.news-header{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#e-mail-form{
+    height: 38px;
+}
+#button{
+    color: #ffffff;
+    height: 38px;
+    background-color: #0d6efd;
+    border-radius: 0px;
+    box-shadow: 0  0 2px #ffffff;
+}
+.one{
+    color: #ffffff;
+    border-width: 3px;
+    border-color: #ffffff;
+}
+/****************************************/
+.customer-description{
+    font-size: 14px;
+}
+.profession-description{
+    font-size: 14px;
+}
+#pro-img{
+    height: 55px;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 7px #666666;
+}
+.customer-1{
+    box-shadow: 0 0 4px #666666;
+}
+.material-symbols-outlined {
+  color: #0d6efd;
+}
+/*******************#blogpost************************/
+.blog-main-header{
+    font-family:Roboto,sans-serif;
+    font-weight:medium;
+    text-align: center;
+}
+.top-pics-header{
+    padding-bottom: 5px;
+}
+.salad-container{
+    height:450px;
+    width: fit-content;
+    background-image: url("https://pinchofyum.com/wp-content/uploads/Chimichurri-Shrimp-4-800x800.jpg");
+    background-size: cover;
+    padding: 20px;
+    filter: brightness(75%);
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.salad-head{
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.salad-description{
+    color: #ffffff;
+}
+.reciepe-nav{
+    color: #ffffff;
+    text-decoration: none;
+}
+.reciepe-nav:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.blog-img{
+    height: 200px;
+    width: 200px;
+}
+.blog-post-img {
+    border-radius: 6px;
+    filter: grayscale(30%);
+}
+.blog-container-1{
+  height:450px;
+  width:100%;
+  color: #ffffff;
+  background-image: url("https://pinchofyum.com/cdn-cgi/image/width=680,height=99999,fit=scale-down/wp-content/uploads/Air-Fryer-Chicken-9.jpg");
+  background-size: cover;
+  filter: brightness(85%);
+  border-radius: 10px;
+  padding: 20px;
+}
+.blog-container-2{
+    height:450px;
+    width:100%;
+    color: #ffffff;
+    background-image: url("https://pinchofyum.com/cdn-cgi/image/width=680,height=99999,fit=scale-down/wp-content/uploads/Pepperoncini-Chicken-6.jpg");
+    background-size: cover;
+    filter: brightness(80%);
+    border-radius: 10px;
+    padding: 20px;
+}
+/***********************************************/
+#img-icon{
+    position: relative;
+    left:180px;
+    bottom:230px;
+}
+.img-wrapper{
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    translate: scale(1.1);
+    cursor: pointer;
+
+}
+.blog-img{
+    filter: brightness(80%);
+    border-radius: 8px;
+ 
+}
+.popular-blog-container {
+    height: 200px; 
+}
+.popular-blog-img{
+    height: 200px;
+    width: 250px;
+    filter: brightness(85%);
+    border-radius: 8px;
+}
+.blog-nav{
+    color: #000000;
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 14px;
+    transition: o.3s ease-in-out;
+    border: solid 2px black transparent;
+}
+.blog-nav:hover{
+    color:black;
+    text-shadow: grey 2px;
+    border: solid 2px black transparent;
+}

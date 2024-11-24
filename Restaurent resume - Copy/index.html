@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Hot N'Fast Food Restaurent</title>
+        <link rel="icon" href="https://img.freepik.com/premium-vector/chef-menu-design_602006-1889.jpg?w=740">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <!---------#nav-bar------------>
+    <body>
+      <div class="bg-container">
+      <nav class="navbar navbar-expand-lg navbar-light  bg-white fixed-top py-4 " id="nav-bar">
+        <div class="container">
+        <a class="navbar-brand d-none d-md-block mt-2" id="logo-text" href="#">
+        <!----  <img class=""  id="logo-icon" src="https://img.freepik.com/premium-vector/chef-menu-design_602006-1889.jpg?w=740"/>
+        -->Hot N' Fast
+         </a>
+        <a href="C:\Users\Deepika\Desktop\Restaurent resume\home.html">
+          <img class="d-md-none d-block"  id="logo-icon" src="https://img.freepik.com/premium-vector/chef-menu-design_602006-1889.jpg?w=740"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto px-2">
+            <li class="nav-item active px-1">
+              <a class="linx  nav-link mt-1" id="item-1" href="#">Home</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link mt-1" id="item-1" href="#aboutus">About us</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link mt-1" id="item-1" href="#whychooseus">Why Choose us</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link link mt-1" id="item-1" href="#exploremenu">Explore Menu</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link mt-1" id="item-1" href="#bookevent">Book Events</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link mt-1" id="item-1" href="#followus">Follow Us</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav text-left">
+            <li class="mb-2">
+       <button  alert="display('hello world')" type="button" class="btn btn-primary py-col-2 mx-2" data-toggle="modal" data-target="#staticBackdrop">
+          <a href="#" id="button-nav" class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"/>
+                <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+              </svg>
+              Sign In
+            </a>
+        </button>
+            </li>
+          <li>
+          <button class="btn btn-primary py-col-2"> <a href="#Bookatable" id="button-nav" class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+              <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+            </svg>
+            Book a Table
+          </a>
+          </button>
+          </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+    </div>
+      
+ <!----#home-page-banner--
+ 
+  <h5 class="modal-header d-flex flex-row justify-content-center">Sign In</h5>
+         <input type="text" value="E-mail" placeholder="Enter Email" >
+         <input type="text" value="New Password" placeholder="New Password">
+         <input type="text" value="Confirm Password" placeholder="Confirm Password">
+          
+          <img class=""  id="logo-icon" src="https://img.freepik.com/premium-vector/chef-menu-design_602006-1889.jpg?w=740"/>
+        <h5 class="modal-title text-center mt-2 pl-3" id="staticBackdropLabel">Hot N' Fast</h5>
+         -->
+ <div class="home-page-banner-bg-container d-flex flex-column justify-content-center">
+  <div class="home-page-banner  text-center">
+    <h3 class="home-page-header">Elevating Your dinning experience with us </h3>
+    <p class="home-page-description">Eat outside the box</p>
+    <button class="btn btn-primary">View More</button>
+    <button class="btn btn-outline-light">Order Now</button>
+  </div>
+ </div>
+<!-----#home-page-banner-end-->
+
+ <!-----#about-us----------->
+ <div id="aboutus">
+  <div class="container history bg-light mb-4 py-5">
+    <div class="row">
+      <div class="col-12 col-lg-6 p-4">
+        <div class="about-us">
+          <img src="https://img.freepik.com/free-photo/asian-waiter-offering-red-wine-young-couple_1262-1429.jpg?t=st=1718378362~exp=1718381962~hmac=f3b71b36490f16fdb479ba5f56459e9458a8914cdc87806c77125cb1501656ec&w=740"  class="img-fluid"   alt="" srcset="">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="about-us p-3 ">
+          <h3 class="hot-heading">About us</h3>
+          <h6 class="hot-heading-2">About Our Hot N'Fast Restaurent</h6>
+          <p class="hot-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, laboriosam, dolore facere nisi nemo consequuntur doloremque quibusdam rem corrupti deserunt at ad possimus temporibus nihil ipsa aut neque, velit dolorum. Unde repudiandae necessitatibus hic blanditiis alias distinctio impedit. Quaerat obcaecati impedit aut? Totam officiis cupiditate qui quibusdam eveniet placeat corporis sint minus possimus dolorum asperiores laborum nam perspiciatis voluptatibus ab maxime itaque libero alias eum eos esse, laudantium nesciunt. In eius similique culpa repellendus voluptate, delectus adipisci voluptates totam est reiciendis. Accusantium dignissimos tenetur, soluta dolorem vel nam fugit fugiat perspiciatis quas animi incidunt voluptatum ipsa in, dolore cumque suscipit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+<!-----#about-us-end--->
+
+  <!-----#why choose us-section-->
+  <div id="whychooseus">
+    <section class="about mb-5 mt-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="content">
+            <h6 class="heading pt-5 text-light">Why choose us</h6>
+            <h5 class="description text-light">We Use Both Orginal Recipies and Class Versions Of Famous Food Items</h5>
+            </div>
+          </div>
+          <div class="col-12  col-sm-6 col-md-6 col-lg-3">
+            <div class="box-1 text-center mb-2 mt-5 mb-3 py-3">
+             <!--- <img  class="chief-img img-fluid img" srcset="https://img.freepik.com/premium-vector/chef-icon-vector-image-can-be-used-cleaning-dusting_120816-237410.jpg?w=740">-->
+             <i class="fa-thin fa-user-chef"></i>
+               <h4>Master Chiefs</h4>
+               <p class="justify-content-flex-start"> Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="box-1  text-center col-lg-mb-2 mt-5 py-3">
+              <!----<img  class="chief-img img-fluid img"   srcset="https://img.freepik.com/premium-vector/salad-icon-vector-image-can-be-used-nutrition_120816-203043.jpg?w=740">-->
+               <h4>Fresh Foods</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus minus..</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="box-1  text-center mt-5 mb-4 py-3">
+               <!--<img  class="chief-img img-fluid img"   srcset="https://img.freepik.com/premium-vector/online-icon-vector-image-can-be-used-web-store_120816-231880.jpg?w=740">-->
+               <h4>Order Online</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus minus...</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <div class="box-1  text-center mb-4 mt-5 py-3">
+               <!--<img  class="chief-img img-fluid img"   srcset="https://img.freepik.com/premium-vector/chef-icon-vector-image-can-be-used-women_120816-236181.jpg?w=740">-->
+               <h4>24/7 Services</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus minus...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+  <!-----#ehy choose us -end------->
+  <!-----#explore-menu-->
+  <div id="exploremenu">
+  <div class="container pb-5">
+    <div class="row">
+      <div class="col-12">
+        <div class="header-section text-center">
+          <h6 class="main-head">Food Menu</h6>
+          <h6 class="main-head-1">Explore Our Menu</h6>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 col-md-4">
+          <div class="box mt-5 m-2 ">
+            <img src="https://img.freepik.com/premium-photo/paneer-tikka-is-indian-cuisine-dish-with-grilled-paneer-cheese-with-vegetables-spices-indian-food_781325-5568.jpg?w=740" class="img-pill w-100 mb-2" alt=""/>
+            <h3 class="box-head">Veg Starters</h3>
+            <a heref="#" id="menu-nav">View all 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg> 
+            </a>
+          </div>
+      </div>
+
+      <div class="col-12  col-sm-6 col-lg-3 col-md-4 w-100">
+        <div class="box mt-5 m-2 ">
+          <img src="https://img.freepik.com/premium-photo/delicious-kofta-nuggets-chicken-cutlets-with-fresh-salad-white-background-created-with-generative-ai-technology_27525-29604.jpg?w=740" class="img-pill w-100" alt="Non-Veg Starters" />
+          <h3 class="box-head">Non-Veg Starters</h3>
+          <a heref="#" id="menu-nav">View all
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg> 
+          </a> 
+        </div>
+    </div>
+
+    <div class="col-12  col-sm-6 col-lg-3 col-md-4 w-100">
+      <div class="box  mt-5 m-2 w-100">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-soup-img.png" class="img-pill w-100" alt="" srcset=""/>
+        <h3 class="box-head">Soups</h3>
+        <a heref="#" id="menu-nav">View all 
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+          </svg> 
+        </a> 
+      </div>
+  </div>
+
+  <div class="col-12   col-sm-6 col-lg-3 col-md-4 w-100">
+    <div class="box mt-5 m-2 w-100">
+      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-hyderabadi-biryani-img.png" class="img-pill w-100" alt="" srcset=""/>
+      <h3 class="box-head">Main Course</h3>
+      <a heref="#" id="menu-nav">View all
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg> 
+      </a> 
+    </div>
+</div>
+<div class="col-12  col-sm-6 col-lg-3 col-md-4 w-100">
+  <div class="box mt-4 m-2 w-100">
+    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-grilled-seafood-img.png" class="img-pill w-100" alt="" srcset=""/>
+    <h3 class="box-head">Fish & Sea Foods</h3>
+    <a heref="#" id="menu-nav">View all
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+      </svg> 
+    </a> 
+  </div>
+</div>
+<div class="col-12  col-sm-6 col-lg-3 col-md-4 w-100">
+  <div class="box mt-4 m-2 w-100" >
+    <img src="https://img.freepik.com/free-photo/roasted-turkey-with-food-table_23-2147947915.jpg?t=st=1719780172~exp=1719783772~hmac=f3a7a6a6c461bb915156f6f6ec498d46b7b58a761d710eb12bcdf4324a576e24&w=740" class="img-pill w-100 " alt="" srcset="">
+    <h3 class="box-head">Barbeque & Grills</h3>
+    <a heref="#" id="menu-nav">View all
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+      </svg> 
+    </a> 
+  </div>
+</div>
+ <div class="col-12  col-sm-6 col-lg-3 col-md-4 w-100">
+  <div class="box mt-4 m-2 w-100" >
+    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-mushroom-noodles-img.png" class="img-pill w-100" alt="" srcset=""/>
+    <h3 class="box-head">Rice & Noodles</h3>
+    <a heref="#" id="menu-nav">View all
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+      </svg> 
+    </a> 
+  </div>
+</div>
+<div class="col-12  col-sm-6 col-lg-3 col-md-4 w-100">
+  <div class="box mt-4 m-2 w-100" >
+    <img src="https://img.freepik.com/premium-photo/sweet-food_1018544-1224.jpg?w=740" class="img-pill w-100" alt="" srcset=""/>
+    <h3 class="box-head">Desserts</h3>
+    <a heref="#" id="menu-nav">View all
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+      </svg> 
+    </a> 
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+<!---------------->
+<!------------ 
+  <p class="browine-description d-md-block d-none">Chocolate brownie ice cream that tastes just like the real thing! Only my version is vegan and gluten-free, and it requires just 7 ingredients.</p>
+-->
+  <div class="py-5">
+  <div class="container-xl">
+    <div class="row">
+      <div class="col-12 col-md-6 mt-5">
+        <div class="browine-content-container mt-5 ">
+          <h6 class="browine-header py-3">PICK OF THE WEEK</h6>
+          <h1 class="browine-heading py-2">Veg Chocolate Browine Ice Cream</h1>
+          <p class="browine-description py-2 mb-2">Chocolate brownie ice cream that tastes just like the real thing! Only my version is vegan and gluten-free, and it requires just 7 ingredients.</p>
+          <button class="custom-button my-3">VIEW RECIEPE</button>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <img class="w-100 d-none d-md-block browine-img-1" src="https://minimalistbaker.com/wp-content/uploads/2024/03/Vegan-Brownie-Choocolate-Ice-Cream-11-600x600.jpg"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!------------
+  <img class="w-100  d-md-blockbrowine-img-1" src="https://minimalistbaker.com/wp-content/uploads/2024/03/Vegan-Brownie-Choocolate-Ice-Cream-11-600x600.jpg"/>-->
+
+<!-----#explore-menu-end-->
+
+  <!-----#event-Bookinbooking-event-containerg-->
+
+
+
+
+
+  <!-----#event-booking-ends-->
+<div id="bookevent">
+  <div class="container py-5">
+    <div class="row">
+
+      <div class="col-12">
+        <div class="header-container text-center mb-5">
+      <h2 class="event-head-1">Book For Events</h2>    
+      <p class="event-description-1">Book Your Private events and Corporate Functions at Hot N'Fast Restaurent</p>
+      </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <img class="w-100" id="img-event"  src="https://cdn.pixabay.com/photo/2017/08/02/10/23/places-2570747_1280.jpg" >
+      </div>
+      <div class="col-12  col-lg-4 d-flex flex-column justify-content-center">
+        <h6 class="event-head-2">Corporate Events</h6>
+        <p class="event-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem corporis deserunt, adipisci quasi beatae illo odit? Velit distinctio ipsam ipsum tenetur, magnam vitae! Iusto expedita voluptate itaque porro impedit perspiciatis perferendis veritatis labore...</p>
+      </div>
+      <div class="col-12 col-lg-4">
+        <img id="img-event" class="w-100" src="https://img.freepik.com/free-photo/front-view-smiley-groom-bride_23-2149956455.jpg?t=st=1718381600~exp=1718385200~hmac=4af4d0433538b31c8d83817ddc9714e53662064e3041cf583eab08a73da68865&w=740" >
+      </div>
+      <div class="col-12 col-lg-4 d-flex flex-column justify-content-center">
+        <h6 class="event-head-2">Wedding Events</h6>
+        <p class="event-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem corporis deserunt, adipisci quasi beatae illo odit? Velit distinctio ipsam ipsum tenetur, magnam vitae! Iusto expedita voluptate itaque porro impedit perspiciatis perferendis veritatis labore...</p>
+      </div>
+      <div class="col-12 col-lg-4 ">
+        <img id="img-event" class="w-100" src="https://img.freepik.com/premium-photo/people-participating-traditional-carnival-celebration-i-neighbor-holiday-activities-background_1020495-238458.jpg?w=740" >
+      </div>
+      <div class="col-12 col-lg-4 d-flex flex-column justify-content-center">
+        <h6 class="event-head-2">Food Festivals</h6>
+        <p class="event-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem corporis deserunt, adipisci quasi beatae illo odit? Velit distinctio ipsam ipsum tenetur, magnam vitae! Iusto expedita voluptate itaque porro impedit perspiciatis perferendis veritatis labore...</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+  <!-----#Blog-Posts-->
+  <div id="blogpost">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 py-5">
+          <h1 class="blog-main-header">Our Blogs</h1>
+        </div>
+        <div class="col-12">
+          <h3 class="top-pics-header">Editor's Pick:</h3>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="salad-container d-flex flex-column justify-content-end mb-3">
+            <h6 class="salad-head">Chimichurri Shrimp with Tomatoes</h6>
+            <p class="salad-description d-none d-lg-block">Saucy, punchy, and delightful Chimichurri Shrimp! Served with a tomato salad, a pile of hot steamy rice, and a dollop of creamy tzatziki.</p>
+            <a class="reciepe-nav mb-3" href="#">Read More 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg> 
+            </a>  
+          </div>
+        </div>
+         <div class="col-12 col-md-4">
+          <div class="blog-container-1 d-flex flex-column justify-content-end mb-3">
+             <h6 class="blog-header">CHICKEN FRY</h6>
+             <h5 class="blog-description">Ridiculously Good Air Fryer Chicken Breast</h5>
+             <a class="reciepe-nav mb-4" href="#">Read More 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg> 
+            </a> 
+          </div>
+         </div>
+          <div class="col-12 col-md-4">
+            <div class="blog-container-2 d-flex flex-column justify-content-end mb-3">
+            <h6 class="blog-header">GRILLED CHICKEN</h6>
+            <h5 class="blog-description">Grilled Chicken with Pepperoncini Garlic Butter</h5>
+            <a class="reciepe-nav mb-4" href="#">Read More 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg> 
+            </a>    
+          </div>
+        </div>
+        </div>  
+      </div>  
+    </div>
+  </div>
+  <!---------------------------->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-12 mb-3">
+        <h2>Trending Blogs:</h2>
+      </div>
+
+      <div class="col-12 col-md-3">
+        <div class="blog-post-container mb-3">
+          <img class="w-100 h-100 blog-img mb-3" src="https://dinnerthendessert.com/wp-content/uploads/2022/07/Baked-Sweet-and-Spicy-Honey-Chicken-1x1-1-640x640.jpg"/>
+
+           <h5 class="tp-header mb-2">Baked Sweet & Spicy Honey Mustard Chicken</h5>
+           <p class="tp-description mb-3">Crispy chicken thigh with honey money and Mustard Glaze</p>
+           <a href="#"  class="blog-nav">Read More
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg> 
+           </a>
+        </div>
+
+
+
+        <div class="blog-post-container mb-3">
+          <img class="w-100 h-100 blog-img mb-3" src="https://dinnerthendessert.com/wp-content/uploads/2017/09/Korean-Fried-Chicken2-640x640.jpg"/>
+           <h5 class="tp-header mb-2">Korean Fried Chicken</h5>
+           <p class="tp-description mb-3">Sweet,Spicy and Crispy Chicken with a gochujang glaze</p>
+           <a  href="#" class="blog-nav">Read More
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg> 
+           </a>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-3">
+        <div class="blog-post-container mb-3">
+          <img class="w-100 h-100 blog-img mb-3" src="https://dinnerthendessert.com/wp-content/uploads/2022/04/Guinness-Chili-6-1x1-1-640x640.jpg"/>
+           <h5 class="tp-header mb-2">Classic Guinness Chili Beef</h5>
+           <p class="tp-description mb-3"><!--If you love Classic Beef Chili,this Guinness Chili Beef delicious spin on it is sure to be a hit.-->
+            Guinness Beef Chili is a hearty, rich, flavorful dish made with beer, beans, tomatoes, and warm spices.
+           </p>
+           <a href="#"  class="blog-nav">Read More
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg> 
+           </a>
+        </div>
+
+        <div class="blog-post-container mb-3">
+          <img class="w-100 h-100 blog-img mb-3" src="https://dinnerthendessert.com/wp-content/uploads/2023/07/Almond-Pound-Cake-1x1-1-640x640.jpg"/>
+           <h5 class="tp-header mb-2">Almound Pound Cake</h5>
+           <p class="tp-description mb-2">Buttery Almond Cake Topped With Crunchy Almonds</p>
+           <a href="#"  class="blog-nav">Read More
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg> 
+           </a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="trending-container">
+          <h2 class="mb-3">Recent Posts :</h2>
+        </div>
+        <div class="popular-blog-container d-flex mb-3">
+            <img class="popular-blog-img" src="https://www.foodandwine.com/thmb/COJT6i5c4hpJ2Tc7TgYgcprHtAM=/300x200/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Dungeness-Crab-Salad-FT-RECIPE1223-ded4eb0c35a44d2cad3892d00f1861de.jpg" alt=""/>
+            <div class="ml-3">
+              <h6 class="mb-2">MAIN DISH SALAD</h6>
+              <p class="mb-2 d-none d-sm-block">For a Wow Worthy Winter Salad,Just Add Crabs</p>
+              <a class="mb-3 blog-nav" href="#">Read More 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                </svg> 
+              </a>
+            </div>
+          </div>
+        <div class="popular-blog-container d-flex mb-3">
+          <img class="popular-blog-img" src="https://www.foodandwine.com/thmb/PIVGDMHtImcN96M9JDenxHbehbw=/300x200/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/grilled-shrimp-cocktail-with-fresh-tomato-cocktail-sauce-FT-RECIPE0822-2000-c40f2d7d2c6a47069c54cd7a180cbc46.jpg" alt=""/>
+          <div class="ml-3">
+            <h6 class="mb-2">APPETIZERS</h6>
+            <p class="mb-2 d-none d-sm-block">Grilled Shrimp Coacktail with Fresh Tomato Coacktail Sauce</p>
+            <a class="mb-3 blog-nav" href="#">Read More 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg> 
+            </a>
+          </div>
+        </div>
+        <div class="popular-blog-container d-flex mb-3">
+          <img class="popular-blog-img" src="https://www.foodandwine.com/thmb/MeDuZSgXNypM7E-ca90laQXqq8g=/300x200/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Ouzo-Snapper-with-Fennel-and-Tomatoes-FT-RECIPE0124-8c6e48ad9dbd4ca595f018ad863cdfcf.jpg" alt=""/>
+          <div class="ml-3">
+            <h6 class="mb-2">SNAPPERS</h6>
+            <p class="mb-2 d-none d-sm-block">Ouzo Snapper with Fennel and Tomatoes</p>
+            <a class="mb-3 blog-nav" href="#">Read More 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg> 
+            </a>
+          </div>
+        </div>
+        <div class="popular-blog-container d-flex mb-3">
+          <img class="popular-blog-img" src="https://www.foodandwine.com/thmb/G5InKZAsqW0chFd7vknTjRQ476A=/300x200/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Dirty-Martini-Pork-Chops-FT-RECIPE0124-d247f414b4e841e2b8808e506b048372.jpg" alt=""/>
+          <div class="ml-3">
+            <h6 class="mb-2">PORK CHOPS</h6>
+            <p class="mb-2 d-none d-sm-block">Dirty Martini Pork Chops</p>
+            <a class="mb-3 blog-nav" href="#">Read More 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg> 
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!---------->
+
+  <!-----#customer-review-->
+  <div id="Customer'sreview">
+    <div class="container pb-5 mb-5">
+      <div class="row">
+        <div class="col-12 ">
+          <div class="review-header text-center mt-5 my-5">
+            <h6 class="text-primary">Testomionals  </h6>
+            <h3>Our Customers Review</h3>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="customer-1 p-2 mb-4">
+            <img src="" class="img-fluid pl-3"  id="customer-img"   alt="" srcset="">
+            <svg xmlns="http://www.w3.org/2000/svg"  class="quote-img"   height="50px" viewBox="0 -960 960 960" width="50px" fill="#0d6efd"><path d="m248-240 94-162q-5 1-11 1.5t-11 .5q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 21-5.5 41.18Q469-498.63 458-480L320-240h-72Zm360 0 94-162q-5 1-11 1.5t-11 .5q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 21-5.5 41.18Q829-498.63 818-480L680-240h-72ZM319.76-480q33.24 0 56.74-23.26 23.5-23.27 23.5-56.5 0-33.24-23.26-56.74-23.27-23.5-56.5-23.5-33.24 0-56.74 23.26-23.5 23.27-23.5 56.5 0 33.24 23.26 56.74 23.27 23.5 56.5 23.5Zm360 0q33.24 0 56.74-23.26 23.5-23.27 23.5-56.5 0-33.24-23.26-56.74-23.27-23.5-56.5-23.5-33.24 0-56.74 23.26-23.5 23.27-23.5 56.5 0 33.24 23.26 56.74 23.27 23.5 56.5 23.5Zm.24-80Zm-360 0Z"/></svg>
+            <p class="pl-4 mb-2 pb-3 customer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim temporibus alias placeat pariatur, tempore fuga obcaecati excepturi delectus, dolorum facilis ea ipsam? Cum, dolor maxime quod error repellendus vel!</p>
+            <div class="pro-container d-flex pl-4 pb-2">
+            <img class="img-fluid" id="pro-img"  src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?t=st=1718478347~exp=1718481947~hmac=cd966657ef5e994e0422ef99144209683abf96f2649a054eb3c10dc17f62e59f&w=740" alt="" srcset="">
+            <div class="pro content ml-3">
+              <h6 class="pro-head">client name</h6>
+              <p class="profession-description">profession</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="customer-1 p-2 mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg"  class="quote-img"   height="50px" viewBox="0 -960 960 960" width="50px" fill="#0d6efd"><path d="m248-240 94-162q-5 1-11 1.5t-11 .5q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 21-5.5 41.18Q469-498.63 458-480L320-240h-72Zm360 0 94-162q-5 1-11 1.5t-11 .5q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 21-5.5 41.18Q829-498.63 818-480L680-240h-72ZM319.76-480q33.24 0 56.74-23.26 23.5-23.27 23.5-56.5 0-33.24-23.26-56.74-23.27-23.5-56.5-23.5-33.24 0-56.74 23.26-23.5 23.27-23.5 56.5 0 33.24 23.26 56.74 23.27 23.5 56.5 23.5Zm360 0q33.24 0 56.74-23.26 23.5-23.27 23.5-56.5 0-33.24-23.26-56.74-23.27-23.5-56.5-23.5-33.24 0-56.74 23.26-23.5 23.27-23.5 56.5 0 33.24 23.26 56.74 23.27 23.5 56.5 23.5Zm.24-80Zm-360 0Z"/></svg>
+            <p class="pl-4 mb-2 pb-3 customer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim temporibus alias placeat pariatur, tempore fuga obcaecati excepturi delectus, dolorum facilis ea ipsam? Cum, dolor maxime quod error repellendus vel!</p>
+            <div class="pro-container d-flex pl-5 pb-2">
+            <img class="img-fluid" id="pro-img"  src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?t=st=1718478347~exp=1718481947~hmac=cd966657ef5e994e0422ef99144209683abf96f2649a054eb3c10dc17f62e59f&w=740" alt="" srcset="">
+            <div class="pro content ml-3">
+              <h6 class="pro-head">client name</h6>
+              <p  class="profession-description">profession</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="customer-1 p-2 mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg"  class="quote-img"   height="50px" viewBox="0 -960 960 960" width="50px" fill="#0d6efd"><path d="m248-240 94-162q-5 1-11 1.5t-11 .5q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 21-5.5 41.18Q469-498.63 458-480L320-240h-72Zm360 0 94-162q-5 1-11 1.5t-11 .5q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 21-5.5 41.18Q829-498.63 818-480L680-240h-72ZM319.76-480q33.24 0 56.74-23.26 23.5-23.27 23.5-56.5 0-33.24-23.26-56.74-23.27-23.5-56.5-23.5-33.24 0-56.74 23.26-23.5 23.27-23.5 56.5 0 33.24 23.26 56.74 23.27 23.5 56.5 23.5Zm360 0q33.24 0 56.74-23.26 23.5-23.27 23.5-56.5 0-33.24-23.26-56.74-23.27-23.5-56.5-23.5-33.24 0-56.74 23.26-23.5 23.27-23.5 56.5 0 33.24 23.26 56.74 23.27 23.5 56.5 23.5Zm.24-80Zm-360 0Z"/></svg>
+            <p class="pl-4 mb-2 pb-3 customer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim temporibus alias placeat pariatur, tempore fuga obcaecati excepturi delectus, dolorum facilis ea ipsam? Cum, dolor maxime quod error repellendus vel!</p>
+            <div class="pro-container d-flex pl-4 pb-2">
+            <img class="img-fluid" id="pro-img"  src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?t=st=1718478347~exp=1718481947~hmac=cd966657ef5e994e0422ef99144209683abf96f2649a054eb3c10dc17f62e59f&w=740" alt="" srcset="">
+            <div class="pro content ml-3">
+              <h6 class="pro-head">client name</h6>
+              <p  class="profession-description">profession</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="customer-1 p-2 mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg"  class="quote-img"   height="50px" viewBox="0 -960 960 960" width="50px" fill="#0d6efd"><path d="m248-240 94-162q-5 1-11 1.5t-11 .5q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 21-5.5 41.18Q469-498.63 458-480L320-240h-72Zm360 0 94-162q-5 1-11 1.5t-11 .5q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 21-5.5 41.18Q829-498.63 818-480L680-240h-72ZM319.76-480q33.24 0 56.74-23.26 23.5-23.27 23.5-56.5 0-33.24-23.26-56.74-23.27-23.5-56.5-23.5-33.24 0-56.74 23.26-23.5 23.27-23.5 56.5 0 33.24 23.26 56.74 23.27 23.5 56.5 23.5Zm360 0q33.24 0 56.74-23.26 23.5-23.27 23.5-56.5 0-33.24-23.26-56.74-23.27-23.5-56.5-23.5-33.24 0-56.74 23.26-23.5 23.27-23.5 56.5 0 33.24 23.26 56.74 23.27 23.5 56.5 23.5Zm.24-80Zm-360 0Z"/></svg>
+            <p class="pl-4 mb-2 pb-3 customer-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim temporibus alias placeat pariatur, tempore fuga obcaecati excepturi delectus, dolorum facilis ea ipsam? Cum, dolor maxime quod error repellendus vel!</p>
+            <div class="pro-container d-flex pl-5 pb-2">
+            <img class="img-fluid" id="pro-img"  src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?t=st=1718478347~exp=1718481947~hmac=cd966657ef5e994e0422ef99144209683abf96f2649a054eb3c10dc17f62e59f&w=740" alt="" srcset="">
+            <div class="pro content ml-3">
+              <h6 class="pro-head">client name</h6>
+              <p  class="profession-description">profession</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    <!-----#customer-review-end--->
+ 
+
+
+<!-----#book-a-table---->
+    <div id="Bookatable">
+      <div class="container  booking-section my-5">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="table-booking mb-3 py-5 p-5">
+            <h5 class="heading-1 text-white">Take a Seat</h5>
+            <h3 class="sub-head text-white">Make a Reservation</h3>
+            <p class="booking-table-info pt-4 text-light">Jion us for a truly Memorable Dinning Experience in one of the chennai's  most spectacular culinary location.We Promise an experience that celebrates the diversity of our delectable food which is prepared with flavours and loyality.</p>
+            <h5 class="sub-nav text-light pt-2"><a href="#">Reserve by phone  | Plan an Event</a></h5>
+            <p class="booking-table-info-1 text-light pt-2">We take lunch and dinner reservations. To make a reservation, please call us at +9144 2855 1951.</p>
+            <h5 class="heading-1 text-light">T&C Apply</h5>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 bg-light">
+            <div class="details mb-2 py-5 p-5">
+              <h4 class="">Make a Reservation</h4>
+              <h1 class="reservation-heading">Drop us Your Details</h1>
+              <div class="form-1">
+                <input type="text" placeholder="Name" id="name" class="mb-3 mt-3 text-dark" required>
+                <input type="number" placeholder="Mobile Number" id="name" class="mb-3 text-dark" required>
+                <input type="date" placeholder="Date" id="name" class="mb-3 text-dark">
+                <input type="time" placeholder="time" id="name" class="mb-3 text-dark">
+                <input type="text" placeholder="People" id="name" class="mb-4 text-dark">
+                <input type="reset"  value="Book Now" class="btn btn-outline-primary w-100"></input>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+<!-----#book-a-table-end--->
+  <!------#follow-us--->
+  <div id="followus">
+        <div class="follow mb-2 text-center ">
+          <h5 class="mb-0" id="follow-head">FOLLOW US</h5>
+          <div class="d-flex justify-content-center">
+          <ul class="d-flex mt-4 mb-4" id="icon-container">
+            <li class="ml-2 pt-3" id="bt-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill=" #0d6efd" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg>
+            </li>
+            <li class="mx-3 pt-3 " id="bt-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill=" #0d6efd"  class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+              </svg>
+              
+             <li class="mx-3 pt-3"  id="bt-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill=" #0d6efd" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg>
+
+            </li>
+          </ul>
+          </div>
+        </div> 
+  <!------#follow-us-end-->        
+
+>
+  <!-----#end-card-ends-->
+  <!-----#footer-section------>
+  
+  <div   class="container-fluid bg-primary py-5"  id="footer-section"  >
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="location">
+          <h5 class="text-left mb-4" id="location-header">GET IN TOUCH</h5>
+          <ul>
+            <li class="my-2 d-flex ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg>
+              <p class="pt-1 ml-2 text-white">ABC street,Chennai,Tamilnadu</p>
+            </li>
+            <li class="my-2 d-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+              </svg>
+              <p class="pt-1 ml-1 text-white">+91 9444505916</p>
+            </li>
+            <li class="my-2 d-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+              </svg>
+              <p class="pt-1 ml-2 text-white">hotN'fast@gmail.com</p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="time-container text-justify">
+          <h5 class="time-header mb-3">OPENING HOURS</h5>
+           <ul class="text-justify">
+            <li id="li-item">MONDAY-FRIDAY</li>
+            <p id="li-item-1">8 AM-11PM</p>
+            <li id="li-item">SATURDAY-SUNDAY</li>
+            <p id="li-item-1">2PM-7PM</p>
+           </ul>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="newspaper-container text-justify">
+          <h5 class="news-header">NEWSPAPER</h5>
+          <p class="text-white">Get our Newspaper and our latest update about our restaurent and new dishes through <span>E-Mail</span> </p>
+          <input class="text" placeholder="E-MAIL" id="e-mail-form"><button class="btn " id="button">Sign Up</button></input>
+        </div>
+      </div>
+      <div class="col-12 d-flex flex-row justify-content-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="White" class="bi bi-c-circle" viewBox="0 0 16 16">
+          <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/>
+        </svg> <h6 class="text-light ml-2 pt-1">All Rights Reserved at HotN'Fast Restaurent</h6>
+
+      </div>
+    </div>
+  </div>
+  <!-----#footer-section-ends--------->
+    
+  
+       <script src="" async defer></script>
+    </body>
+</html>
